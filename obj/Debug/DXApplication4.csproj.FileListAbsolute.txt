@@ -1,0 +1,11 @@
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\bin\Debug\DXApplication4.exe
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\bin\Debug\DXApplication4.pdb
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.csprojResolveAssemblyReference.cache
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.Properties.Resources.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.csproj.GenerateResource.Cache
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.exe.licenses
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.exe
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.pdb
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\bin\Debug\MySql.Data.dll
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.Main.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.login.resources

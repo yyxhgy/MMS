@@ -1,0 +1,138 @@
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\bin\Debug\MySql.Data.dll
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.kc.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.kh.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.kh_detail.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.Main.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.pfgl.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.pf_add.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.Properties.Resources.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.login.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.rk.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.rk_add.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.selectpf.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.selectyf.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.zhd.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.zhd_cx.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\color.csproj.GenerateResource.Cache
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\bin\Debug\Resources\btn_edit.Image.png
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.shd.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.shd_cx.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.firstpage.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\bin\Debug\祥泰塑染色粉管理.exe.config
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\bin\Debug\祥泰塑染色粉管理.exe
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\bin\Debug\祥泰塑染色粉管理.pdb
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\祥泰塑染色粉管理.exe.licenses
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\祥泰塑染色粉管理.exe
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\祥泰塑染色粉管理.pdb
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.jm.resources
+C:\Users\yyxhgy\Documents\Visual Studio 2013\Projects\DXApplication4\DXApplication4\obj\Debug\TActionProject.PagerControl.resources
+F:\項目\DXApplication4\bin\Debug\祥泰塑染色粉管理.exe.config
+F:\項目\DXApplication4\obj\Debug\祥泰塑染色粉管理.exe
+F:\項目\DXApplication4\obj\Debug\祥泰塑染色粉管理.pdb
+F:\項目\DXApplication4\bin\Debug\Resources\btn_edit.Image.png
+F:\項目\DXApplication4\bin\Debug\祥泰塑染色粉管理.exe
+F:\項目\DXApplication4\bin\Debug\祥泰塑染色粉管理.pdb
+F:\項目\DXApplication4\bin\Debug\DevExpress.Data.v14.2.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.Office.v14.2.Core.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.RichEdit.v14.2.Core.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.Sparkline.v14.2.Core.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.Utils.v14.2.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraBars.v14.2.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraGrid.v14.2.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraRichEdit.v14.2.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraTreeList.v14.2.dll
+F:\項目\DXApplication4\bin\Debug\DevExpress.Data.v14.2.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.Office.v14.2.Core.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.RichEdit.v14.2.Core.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.Utils.v14.2.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraBars.v14.2.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraRichEdit.v14.2.xml
+F:\項目\DXApplication4\bin\Debug\DevExpress.XtraTreeList.v14.2.xml
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.Office.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.Office.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.Office.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.Office.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.RichEdit.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.RichEdit.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.RichEdit.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.RichEdit.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.XtraRichEdit.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.XtraRichEdit.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.XtraRichEdit.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.XtraRichEdit.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\de\DevExpress.XtraTreeList.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\es\DevExpress.XtraTreeList.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ja\DevExpress.XtraTreeList.v14.2.resources.dll
+F:\項目\DXApplication4\bin\Debug\ru\DevExpress.XtraTreeList.v14.2.resources.dll
+F:\項目\DXApplication4\obj\Debug\color.csprojResolveAssemblyReference.cache
+F:\項目\DXApplication4\obj\Debug\TActionProject.PagerControl.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.firstpage.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.jm.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.kc.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.kh.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.kh_detail.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.Main.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.pfgl.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.pf_add.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.Properties.Resources.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.login.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.rk.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.rk_add.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.selectpf.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.selectyf.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.shd.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.shd_cx.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.zhd.resources
+F:\項目\DXApplication4\obj\Debug\DXApplication4.zhd_cx.resources
+F:\項目\DXApplication4\obj\Debug\color.csproj.GenerateResource.Cache
+F:\項目\DXApplication4\obj\Debug\祥泰塑染色粉管理.exe.licenses
+F:\項目\DXApplication4\bin\Debug\FastReport.dll
+F:\項目\DXApplication4\bin\Debug\FastReport.Bars.dll
+F:\項目\DXApplication4\bin\Debug\FastReport.Editor.dll
+F:\項目\DXApplication4\bin\Debug\FastReport.xml

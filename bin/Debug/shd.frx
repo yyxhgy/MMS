@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="12/05/2015 11:29:26" ReportInfo.Modified="12/21/2015 11:06:35" ReportInfo.CreatorVersion="2013.2.5.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+
+    
+  }
+}
+</ScriptText>
+  <Dictionary>
+    <TableDataSource Name="shd" ReferenceName="Data.shd" DataType="System.Int32" Enabled="true">
+      <Column Name="shd_bh" DataType="System.String"/>
+      <Column Name="shd_rq" DataType="System.String"/>
+      <Column Name="shd_kh" DataType="System.String"/>
+      <Column Name="shd_kh_dz" DataType="System.String"/>
+      <Column Name="shd_sj" DataType="System.String" PropName="Column"/>
+    </TableDataSource>
+    <TableDataSource Name="shd_detail" ReferenceName="Data.shd_detail" DataType="System.Int32" Enabled="true">
+      <Column Name="shd_pf_sl" DataType="System.String"/>
+      <Column Name="shd_pf_bh" DataType="System.String"/>
+      <Column Name="shd_pf_jg" DataType="System.String"/>
+      <Column Name="shd_pf_je" DataType="System.String" PropName="shd_pf_jz"/>
+      <Column Name="shd_pf_zl" Enabled="false" DataType="System.Int32"/>
+      <Column Name="shd_pf_ys" DataType="System.String"/>
+      <Column Name="shd_pf_dw" DataType="System.String"/>
+    </TableDataSource>
+    <Total Name="Total" Expression="[shd_detail.shd_pf_je]" Evaluator="Data1" PrintOn="PageFooter1"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="240" PaperHeight="92" FirstPageSource="278" OtherPagesSource="278">
+    <PageHeaderBand Name="PageHeader1" Width="831.6" Height="88.83">
+      <TextObject Name="Text3" Left="37.8" Top="47.25" Width="255.15" Height="18.9" Text="地址：[shd.shd_kh_dz]" Font="宋体, 9pt"/>
+      <TextObject Name="Text2" Left="37.8" Top="28.35" Width="122.85" Height="18.9" Text="客户：[shd.shd_kh]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text1" Width="831.6" Height="28.35" Text="祥 泰 塑 染" HorzAlign="Center" VertAlign="Center" Font="宋体, 14.25pt, style=Bold"/>
+      <TableObject Name="Table2" Left="37.8" Top="66.15" Width="757.08" Height="22.68" Border.Lines="All">
+        <TableColumn Name="Column7" Width="126.18"/>
+        <TableColumn Name="Column8" Width="126.18"/>
+        <TableColumn Name="Column9" Width="126.18"/>
+        <TableColumn Name="Column10" Width="126.18"/>
+        <TableColumn Name="Column11" Width="126.18"/>
+        <TableColumn Name="Column12" Width="126.18"/>
+        <TableRow Name="Row4" Height="22.68">
+          <TableCell Name="Cell34" Border.Lines="All" Text="货号" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell35" Border.Lines="All" Text="颜色" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell36" Border.Lines="All" Text="数量" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell37" Border.Lines="All" Text="单位" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell38" Border.Lines="All" Text="单价" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell59" Text="金额" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        </TableRow>
+      </TableObject>
+      <TextObject Name="Text4" Left="623.7" Top="28.35" Width="198.45" Height="18.9" Text="单号：[shd.shd_bh]" Font="宋体, 9pt"/>
+      <TextObject Name="Text9" Left="368.55" Top="28.35" Width="94.5" Height="18.9" Text="送货单" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="92.83" Width="831.6" Height="22.68" DataSource="shd_detail">
+      <TableObject Name="Table3" Left="37.8" Width="757.08" Height="22.68">
+        <TableColumn Name="Column13" Width="126.18"/>
+        <TableColumn Name="Column14" Width="126.18"/>
+        <TableColumn Name="Column15" Width="126.18"/>
+        <TableColumn Name="Column16" Width="126.18"/>
+        <TableColumn Name="Column17" Width="126.18"/>
+        <TableColumn Name="Column18" Width="126.18"/>
+        <TableRow Name="Row5" Height="22.68">
+          <TableCell Name="Cell60" Border.Lines="All" Text="[shd_detail.shd_pf_bh]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell61" Border.Lines="All" Text="[shd_detail.shd_pf_ys]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell62" Border.Lines="All" Text="[shd_detail.shd_pf_sl]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell63" Border.Lines="All" Text="[shd_detail.shd_pf_dw]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell64" Border.Lines="All" Text="[shd_detail.shd_pf_jg]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell85" Border.Lines="All" Text="[shd_detail.shd_pf_je]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="119.51" Width="831.6" Height="47.25">
+      <TextObject Name="Text6" Left="37.8" Top="28.35" Width="122.85" Height="18.9" Text="送货单位/经手" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text7" Left="330.75" Top="28.35" Width="141.75" Height="18.9" Text="收货单位/经手人签名" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text8" Left="652.05" Top="28.35" Width="151.2" Height="18.9" Text="日期：[shd.shd_sj]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text5" Left="670.95" Top="9.45" Width="122.85" Height="18.9" Text="合计：[Total]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text10" Left="170.1" Top="28.35" Width="94.5" Height="18.9" Text="祥泰塑染" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

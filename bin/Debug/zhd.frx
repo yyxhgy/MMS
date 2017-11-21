@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="12/07/2015 13:33:09" ReportInfo.Modified="08/31/2017 21:34:33" ReportInfo.CreatorVersion="2013.2.5.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+
+    private void Cell19_AfterData(object sender, EventArgs e)
+    {
+       Cell19.Text= (Convert.ToDouble(Cell9.Text)*Convert.ToDouble(Cell11.Text)).ToString();
+
+    }
+  }
+}
+</ScriptText>
+  <Dictionary>
+    <TableDataSource Name="zhd" ReferenceName="Data.zhd" DataType="System.Int32" Enabled="true">
+      <Column Name="zhd_yf_bh" DataType="System.String"/>
+      <Column Name="zhd_yf_sl" DataType="System.String"/>
+    </TableDataSource>
+    <TableDataSource Name="zhd_main" ReferenceName="Data.zhd_main" DataType="System.Int32" Enabled="true">
+      <Column Name="zhd_pf_sl" DataType="System.Double"/>
+      <Column Name="zhd_zhds" DataType="System.Double"/>
+      <Column Name="zhd_bzgs" DataType="System.String"/>
+      <Column Name="zhd_sj" DataType="System.String"/>
+      <Column Name="zhd_zl" DataType="System.Double"/>
+      <Column Name="zhd_pf_ys" DataType="System.String"/>
+      <Column Name="Column" Alias="zhd_kh" DataType="System.Int32" Calculated="true" Expression=""/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="130" PaperHeight="190" FirstPageSource="278" OtherPagesSource="278">
+    <PageHeaderBand Name="PageHeader1" Width="415.8" Height="132.3">
+      <TextObject Name="Text5" Width="415.8" Height="37.8" Dock="Top" Text="祥 泰 塑 染&#13;&#10;" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 20pt, style=Bold"/>
+      <TextObject Name="Text1" Left="155.9" Top="28.35" Width="103.95" Height="37.8" Text="制货单" HorzAlign="Center" VertAlign="Center" Font="宋体, 16pt"/>
+      <TextObject Name="Text2" Left="18.9" Top="66.15" Width="207.9" Height="28.35" Text="[zhd_main.zhd_kh]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TableObject Name="Table1" Left="28.35" Top="94.5" Width="359.14" Height="37.8">
+        <TableColumn Name="Column1" Width="179.57"/>
+        <TableColumn Name="Column2" Width="179.57"/>
+        <TableRow Name="Row1" Height="37.8">
+          <TableCell Name="Cell1" Border.Lines="All" Border.Color="Transparent" HorzAlign="Center" VertAlign="Center" Font="宋体, 16pt"/>
+          <TableCell Name="Cell2" Border.Lines="All" Border.Color="Transparent" HorzAlign="Center" VertAlign="Center" Font="宋体, 16pt"/>
+        </TableRow>
+      </TableObject>
+      <TextObject Name="Text3" Left="226.8" Top="66.15" Width="226.8" Height="28.35" Text="[zhd_main.zhd_pf_bh]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="136.3" Width="415.8" Height="37.8" DataSource="zhd">
+      <TableObject Name="Table2" Left="28.35" Width="359.14" Height="37.8">
+        <TableColumn Name="Column3" Width="179.57"/>
+        <TableColumn Name="Column4" Width="179.57"/>
+        <TableRow Name="Row2" Height="37.8">
+          <TableCell Name="Cell3" Text="[zhd.zhd_yf_bh]" HorzAlign="Center" VertAlign="Center" Font="宋体, 16pt"/>
+          <TableCell Name="Cell4" Text="[zhd.zhd_yf_sl]" HorzAlign="Center" VertAlign="Center" Font="宋体, 16pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="178.1" Width="415.8" Height="160.65" Guides="141.75,132.3,132.3">
+      <TableObject Name="Table3" Left="18.9" Width="377.93" Height="103.95">
+        <TableColumn Name="Column7" Width="94.52"/>
+        <TableColumn Name="Column8" Width="94.47"/>
+        <TableColumn Name="Column5" Width="94.47"/>
+        <TableColumn Name="Column6" Width="94.47"/>
+        <TableRow Name="Row3" Height="34.65">
+          <TableCell Name="Cell8" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 14pt"/>
+          <TableCell Name="Cell9" Text="[zhd_main.zhd_pf_sl]" VertAlign="Bottom" Font="宋体, 12pt"/>
+          <TableCell Name="Cell10" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 14pt"/>
+          <TableCell Name="Cell11" Text="[zhd_main.zhd_zl]" VertAlign="Bottom" Font="宋体, 12pt"/>
+        </TableRow>
+        <TableRow Name="Row4" Height="34.65">
+          <TableCell Name="Cell13" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+          <TableCell Name="Cell14" Text="[zhd_main.zhd_zhds]" VertAlign="Bottom" Font="宋体, 10pt"/>
+          <TableCell Name="Cell15" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+          <TableCell Name="Cell16" Text="[zhd_main.zhd_sj]" VertAlign="Bottom" Font="宋体, 10pt"/>
+        </TableRow>
+        <TableRow Name="Row5" Height="34.65">
+          <TableCell Name="Cell18" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 16pt"/>
+          <TableCell Name="Cell19" AfterDataEvent="Cell19_AfterData" VertAlign="Bottom" Font="宋体, 12pt"/>
+          <TableCell Name="Cell20" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+          <TableCell Name="Cell21" VertAlign="Bottom" Font="宋体, 10pt"/>
+        </TableRow>
+      </TableObject>
+    </PageFooterBand>
+  </ReportPage>
+</Report>
